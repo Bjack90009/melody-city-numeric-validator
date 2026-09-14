@@ -1,0 +1,1040 @@
+window.NUMERIC_DATA = {
+  "version": "20260914-numeric-v1",
+  "source": "A爱乐之城.xlsx",
+  "items": [
+    {
+      "id": "P01",
+      "name": "长笛",
+      "category": "管乐",
+      "song": "爵士之夜",
+      "height": 1,
+      "width": 3,
+      "quality": "绿",
+      "base": [
+        30,
+        43,
+        55,
+        67,
+        80,
+        92
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B59:AH59",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_30101.png"
+    },
+    {
+      "id": "P02",
+      "name": "单簧管",
+      "category": "管乐",
+      "song": "交响序曲",
+      "height": 1,
+      "width": 3,
+      "quality": "蓝",
+      "base": [
+        33,
+        47,
+        61,
+        74,
+        88,
+        101
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B60:AH60",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_30202.png"
+    },
+    {
+      "id": "P03",
+      "name": "双簧管",
+      "category": "管乐",
+      "song": "交响序曲",
+      "height": 1,
+      "width": 4,
+      "quality": "紫",
+      "base": [
+        53,
+        74,
+        95,
+        116,
+        137,
+        159
+      ],
+      "effect": [
+        10,
+        19,
+        31
+      ],
+      "description": "若相邻有管乐，则自身获得a点表演值",
+      "notes": [],
+      "source": "乐器设计!B61:AH61",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_30303.png"
+    },
+    {
+      "id": "P04",
+      "name": "萨克斯",
+      "category": "管乐",
+      "song": "爵士之夜",
+      "height": 3,
+      "width": 2,
+      "quality": "金",
+      "base": [
+        100,
+        141,
+        181,
+        221,
+        262,
+        302
+      ],
+      "effect": [
+        7,
+        12,
+        20
+      ],
+      "description": "每与一个管乐连续相邻，自身获得a点表演值",
+      "notes": [],
+      "source": "乐器设计!B62:AH62",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_30404.png"
+    },
+    {
+      "id": "P05",
+      "name": "小号",
+      "category": "管乐",
+      "song": "爵士之夜",
+      "height": 3,
+      "width": 1,
+      "quality": "绿",
+      "base": [
+        30,
+        43,
+        55,
+        67,
+        80,
+        92
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B63:AH63",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_30105.png"
+    },
+    {
+      "id": "P06",
+      "name": "中号",
+      "category": "管乐",
+      "song": "爵士之夜",
+      "height": 1,
+      "width": 4,
+      "quality": "蓝",
+      "base": [
+        46,
+        65,
+        83,
+        102,
+        121,
+        139
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B64:AH64",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_30206.png"
+    },
+    {
+      "id": "P07",
+      "name": "小提琴",
+      "category": "拉弦乐",
+      "song": "交响序曲",
+      "height": 1,
+      "width": 2,
+      "quality": "蓝",
+      "base": [
+        22,
+        30,
+        39,
+        48,
+        57,
+        66
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B65:AH65",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_20207.png"
+    },
+    {
+      "id": "P08",
+      "name": "中提琴",
+      "category": "拉弦乐",
+      "song": "交响序曲",
+      "height": 2,
+      "width": 2,
+      "quality": "紫",
+      "base": [
+        53,
+        74,
+        95,
+        116,
+        137,
+        159
+      ],
+      "effect": [
+        10,
+        19,
+        31
+      ],
+      "description": "若下方没有其他乐器，则自身获得a点表演值",
+      "notes": [
+        "实际效果为空，采用测试值10/19/31"
+      ],
+      "source": "乐器设计!B66:AH66",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_20308.png"
+    },
+    {
+      "id": "P09",
+      "name": "大提琴",
+      "category": "拉弦乐",
+      "song": "交响序曲",
+      "height": 2,
+      "width": 3,
+      "quality": "金",
+      "base": [
+        100,
+        141,
+        181,
+        221,
+        262,
+        302
+      ],
+      "effect": [
+        12,
+        22,
+        36
+      ],
+      "description": "左右侧每有一个拉弦乐，每个使自身获得a点表演值",
+      "notes": [],
+      "source": "乐器设计!B67:AH67",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_20409.png"
+    },
+    {
+      "id": "P10",
+      "name": "二胡",
+      "category": "拉弦乐",
+      "song": "民族巡礼",
+      "height": 3,
+      "width": 2,
+      "quality": "金",
+      "base": [
+        100,
+        141,
+        181,
+        221,
+        262,
+        302
+      ],
+      "effect": [
+        6,
+        11,
+        19
+      ],
+      "description": "自身与所有相邻的拉弦乐获得a点表演值",
+      "notes": [],
+      "source": "乐器设计!B68:AH68",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_20410.png"
+    },
+    {
+      "id": "P11",
+      "name": "木吉他",
+      "category": "拨弦",
+      "song": "爵士之夜",
+      "height": 1,
+      "width": 2,
+      "quality": "绿",
+      "base": [
+        20,
+        28,
+        36,
+        44,
+        52,
+        60
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B69:AH69",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_60111.png"
+    },
+    {
+      "id": "P12",
+      "name": "电吉他",
+      "category": "拨弦",
+      "song": "摇滚时代",
+      "height": 1,
+      "width": 2,
+      "quality": "紫",
+      "base": [
+        25,
+        35,
+        45,
+        55,
+        65,
+        75
+      ],
+      "effect": [
+        5,
+        9,
+        15
+      ],
+      "description": "若相邻有拨弦乐器，则自身表演值增加a点",
+      "notes": [],
+      "source": "乐器设计!B70:AH70",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_60312.png"
+    },
+    {
+      "id": "P13",
+      "name": "贝斯",
+      "category": "拨弦",
+      "song": "摇滚时代",
+      "height": 1,
+      "width": 2,
+      "quality": "蓝",
+      "base": [
+        22,
+        30,
+        39,
+        48,
+        57,
+        66
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B71:AH71",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_60213.png"
+    },
+    {
+      "id": "P14",
+      "name": "竖琴",
+      "category": "拨弦",
+      "song": "优雅晚宴",
+      "height": 2,
+      "width": 2,
+      "quality": "紫",
+      "base": [
+        53,
+        74,
+        95,
+        116,
+        137,
+        159
+      ],
+      "effect": [
+        2,
+        4,
+        6
+      ],
+      "description": "相邻每有一个其他乐器，则自身表演值增加a点",
+      "notes": [],
+      "source": "乐器设计!B72:AH72",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_60314.png"
+    },
+    {
+      "id": "P15",
+      "name": "琵琶",
+      "category": "拨弦",
+      "song": "民族巡礼",
+      "height": 2,
+      "width": 1,
+      "quality": "蓝",
+      "base": [
+        22,
+        30,
+        39,
+        48,
+        57,
+        66
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B73:AH73",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_60215.png"
+    },
+    {
+      "id": "P16",
+      "name": "古筝",
+      "category": "拨弦",
+      "song": "民族巡礼",
+      "height": 2,
+      "width": 3,
+      "quality": "金",
+      "base": [
+        100,
+        141,
+        181,
+        221,
+        262,
+        302
+      ],
+      "effect": [
+        1,
+        2,
+        3
+      ],
+      "description": "每有一个其他拨弦乐器，自身和相邻的所有拨弦乐器也获得a点",
+      "notes": [],
+      "source": "乐器设计!B74:AH74",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_60416.png"
+    },
+    {
+      "id": "P17",
+      "name": "古典钢琴",
+      "category": "键盘",
+      "song": "优雅晚宴",
+      "height": 2,
+      "width": 3,
+      "quality": "金",
+      "base": [
+        100,
+        141,
+        181,
+        221,
+        262,
+        302
+      ],
+      "effect": [
+        6,
+        11,
+        18
+      ],
+      "description": "下方每有一种其他乐器，则自身表演值增加a点",
+      "notes": [],
+      "source": "乐器设计!B75:AH75",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_10417.png"
+    },
+    {
+      "id": "P18",
+      "name": "电子琴",
+      "category": "键盘",
+      "song": "摇滚时代",
+      "height": 2,
+      "width": 3,
+      "quality": "紫",
+      "base": [
+        84,
+        117,
+        151,
+        184,
+        218,
+        252
+      ],
+      "effect": [
+        16,
+        30,
+        50
+      ],
+      "description": "下方如果没有其他乐器，则自身表演值增加a点",
+      "notes": [],
+      "source": "乐器设计!B76:AH76",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_10318.png"
+    },
+    {
+      "id": "P19",
+      "name": "管风琴",
+      "category": "键盘",
+      "song": "交响序曲",
+      "height": 2,
+      "width": 3,
+      "quality": "金",
+      "base": [
+        100,
+        141,
+        181,
+        221,
+        262,
+        302
+      ],
+      "effect": [
+        6,
+        11,
+        18
+      ],
+      "description": "上方每有一种其他乐器，则最终表演值增加a点",
+      "notes": [],
+      "source": "乐器设计!B77:AH77",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_10419.png"
+    },
+    {
+      "id": "P20",
+      "name": "手风琴",
+      "category": "键盘",
+      "song": "爵士之夜",
+      "height": 2,
+      "width": 3,
+      "quality": "紫",
+      "base": [
+        84,
+        117,
+        151,
+        184,
+        218,
+        252
+      ],
+      "effect": [
+        8,
+        15,
+        25
+      ],
+      "description": "左右相邻每有一种其他乐器，则最终表演值增加a点",
+      "notes": [],
+      "source": "乐器设计!B78:AH78",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_10320.png"
+    },
+    {
+      "id": "P21",
+      "name": "架子鼓",
+      "category": "打击乐",
+      "song": "摇滚时代",
+      "height": 2,
+      "width": 2,
+      "quality": "紫",
+      "base": [
+        53,
+        74,
+        95,
+        116,
+        137,
+        159
+      ],
+      "effect": [
+        5,
+        5,
+        5
+      ],
+      "description": "表演开始时：相邻每有一种乐器，生成一个节拍，最多生成x个",
+      "notes": [
+        "已确认：节拍生成上限固定5"
+      ],
+      "source": "乐器设计!B79:AH79",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_40321.png"
+    },
+    {
+      "id": "P22",
+      "name": "三角铁",
+      "category": "打击乐",
+      "song": "优雅晚宴",
+      "height": 1,
+      "width": 1,
+      "quality": "蓝",
+      "base": [
+        11,
+        15,
+        19,
+        24,
+        28,
+        33
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B80:AH80",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_40222.png"
+    },
+    {
+      "id": "P23",
+      "name": "木琴",
+      "category": "打击乐",
+      "song": "民族巡礼",
+      "height": 1,
+      "width": 3,
+      "quality": "紫",
+      "base": [
+        38,
+        54,
+        69,
+        84,
+        100,
+        115
+      ],
+      "effect": [
+        1,
+        2,
+        4
+      ],
+      "description": "最后结算时：每有x个节拍，获得y节奏值",
+      "notes": [],
+      "source": "乐器设计!B81:AH81",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_40323.png"
+    },
+    {
+      "id": "P24",
+      "name": "镲",
+      "category": "打击乐",
+      "song": "摇滚时代",
+      "height": 1,
+      "width": 1,
+      "quality": "绿",
+      "base": [
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B82:AH82",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_40124.png"
+    },
+    {
+      "id": "P25",
+      "name": "沙锤",
+      "category": "打击乐",
+      "song": "摇滚时代",
+      "height": 1,
+      "width": 1,
+      "quality": "绿",
+      "base": [
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B83:AH83",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_40125.png"
+    },
+    {
+      "id": "P26",
+      "name": "铃圈",
+      "category": "打击乐",
+      "song": "优雅晚宴",
+      "height": 1,
+      "width": 1,
+      "quality": "绿",
+      "base": [
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "effect": [
+        0,
+        0,
+        0
+      ],
+      "description": "无额外能力",
+      "notes": [],
+      "source": "乐器设计!B84:AH84",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_40126.png"
+    },
+    {
+      "id": "P27",
+      "name": "鎏金花篮",
+      "category": "装扮",
+      "song": null,
+      "height": 1,
+      "width": 1,
+      "quality": "蓝",
+      "base": [
+        11,
+        15,
+        19,
+        24,
+        28,
+        33
+      ],
+      "effect": [
+        0.003,
+        0.004,
+        0.005
+      ],
+      "description": "当激活了交响序曲or拉弦乐时，最终演奏值加a%",
+      "notes": [],
+      "source": "乐器设计!B85:AH85",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_50227.png"
+    },
+    {
+      "id": "P28",
+      "name": "霓虹照灯",
+      "category": "装扮",
+      "song": null,
+      "height": 1,
+      "width": 1,
+      "quality": "蓝",
+      "base": [
+        11,
+        15,
+        19,
+        24,
+        28,
+        33
+      ],
+      "effect": [
+        0.003,
+        0.004,
+        0.005
+      ],
+      "description": "当激活了摇滚时代or打击乐时，最终演奏值加a%",
+      "notes": [],
+      "source": "乐器设计!B86:AH86",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_50228.png"
+    },
+    {
+      "id": "P29",
+      "name": "小夜灯",
+      "category": "装扮",
+      "song": null,
+      "height": 1,
+      "width": 1,
+      "quality": "蓝",
+      "base": [
+        11,
+        15,
+        19,
+        24,
+        28,
+        33
+      ],
+      "effect": [
+        0.003,
+        0.004,
+        0.005
+      ],
+      "description": "当激活了爵士之夜or管乐时，最终演奏值加a%",
+      "notes": [],
+      "source": "乐器设计!B87:AH87",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_50229.png"
+    },
+    {
+      "id": "P30",
+      "name": "锦绣花篮",
+      "category": "装扮",
+      "song": null,
+      "height": 1,
+      "width": 1,
+      "quality": "蓝",
+      "base": [
+        11,
+        15,
+        19,
+        24,
+        28,
+        33
+      ],
+      "effect": [
+        0.003,
+        0.004,
+        0.005
+      ],
+      "description": "当激活了民族巡礼or拨弦时，最终演奏值加a%",
+      "notes": [],
+      "source": "乐器设计!B88:AH88",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_50230.png"
+    },
+    {
+      "id": "P31",
+      "name": "珍珠蝴蝶结",
+      "category": "装扮",
+      "song": null,
+      "height": 1,
+      "width": 1,
+      "quality": "蓝",
+      "base": [
+        11,
+        15,
+        19,
+        24,
+        28,
+        33
+      ],
+      "effect": [
+        0.003,
+        0.004,
+        0.005
+      ],
+      "description": "当激活了优雅晚宴or键盘时，最终演奏值加a%",
+      "notes": [],
+      "source": "乐器设计!B89:AH89",
+      "icon": "assets/item-icons-80px/MusicCity_n_icon_tool_50231.png"
+    }
+  ],
+  "rules": {
+    "rows": 7,
+    "cols": 7,
+    "initialRows": 3,
+    "initialCols": 3,
+    "unlockStamina": 5,
+    "unlockCells": 2,
+    "drawStamina": 3,
+    "advancedEvery": 8,
+    "normalWeights": [
+      0.675,
+      0.25,
+      0.075,
+      0
+    ],
+    "advancedWeights": [
+      0,
+      0,
+      0.85,
+      0.15
+    ],
+    "maxLevel": 6,
+    "duplicatesPerLevel": 2,
+    "initialStamina": 18,
+    "staminaCap": 24,
+    "recoverMinutes": 30,
+    "recoverAmount": 3,
+    "beatMin": 6,
+    "beatMax": 10,
+    "beatWeights": [
+      400,
+      300,
+      200,
+      100
+    ],
+    "beatRates": [
+      [
+        0.005,
+        0.0075,
+        0.01
+      ],
+      [
+        0.006,
+        0.0085,
+        0.011
+      ],
+      [
+        0.0075,
+        0.01,
+        0.0125
+      ],
+      [
+        0.01,
+        0.0125,
+        0.015
+      ]
+    ],
+    "charmCap": 0.2,
+    "charmExponent": 0.8,
+    "charmScale": 0.09,
+    "targetRatio": 0.0189,
+    "woodDivisor": 3,
+    "woodMode": "percent",
+    "woodCount": "generated"
+  },
+  "sets": [
+    {
+      "name": "管乐",
+      "tiers": [
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          6,
+          31
+        ]
+      ],
+      "type": "member"
+    },
+    {
+      "name": "拉弦乐",
+      "tiers": [
+        [
+          1,
+          19
+        ],
+        [
+          4,
+          28
+        ]
+      ],
+      "type": "member"
+    },
+    {
+      "name": "拨弦",
+      "tiers": [
+        [
+          2,
+          13
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          6,
+          24
+        ]
+      ],
+      "type": "member"
+    },
+    {
+      "name": "键盘",
+      "tiers": [
+        [
+          1,
+          0.05
+        ]
+      ],
+      "type": "percent",
+      "exact": true
+    },
+    {
+      "name": "打击乐",
+      "tiers": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "type": "member"
+    },
+    {
+      "name": "交响序曲",
+      "tiers": [
+        [
+          2,
+          28
+        ],
+        [
+          4,
+          70
+        ],
+        [
+          6,
+          150
+        ]
+      ],
+      "type": "global"
+    },
+    {
+      "name": "爵士之夜",
+      "tiers": [
+        [
+          1,
+          13
+        ],
+        [
+          3,
+          49
+        ],
+        [
+          6,
+          144
+        ]
+      ],
+      "type": "global"
+    },
+    {
+      "name": "摇滚时代",
+      "tiers": [
+        [
+          3,
+          54
+        ],
+        [
+          6,
+          138
+        ]
+      ],
+      "type": "rock"
+    },
+    {
+      "name": "优雅晚宴",
+      "tiers": [
+        [
+          1,
+          24
+        ],
+        [
+          4,
+          25
+        ]
+      ],
+      "type": "perMember"
+    },
+    {
+      "name": "民族巡礼",
+      "tiers": [
+        [
+          2,
+          47
+        ],
+        [
+          4,
+          85
+        ]
+      ],
+      "type": "folk"
+    }
+  ]
+};

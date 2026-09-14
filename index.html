@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>爱乐之城 · 数值验证版</title><link rel="icon" href="data:,"><link rel="stylesheet" href="styles.css"></head>
+<body><div class="shell">
+<header><div><span class="eyebrow">MELODY CITY / NUMERIC PLAYGROUND</span><h1>爱乐之城 <em>数值验证版</em></h1><p>31件道具 · 六级成长 · 固定朝向</p></div><nav><button data-mode="trial">成长体验</button><button data-mode="test">自由验证</button><button id="tools">参数与规则</button><button id="logs">表演日志</button></nav></header>
+<section class="metrics" id="metrics"></section>
+<main><section class="panel board-panel"><div class="panel-title"><div><h2>表演背包 <small>7 × 7</small></h2><p id="spaceSummary"></p></div><div class="score"><span>背包表演值</span><strong id="score">0</strong><small id="delta"></small></div></div>
+<div id="breakdown" class="breakdown"></div><div id="sets" class="set-rail"></div>
+<div class="board-stage"><div id="board" class="board" aria-label="表演道具背包"></div></div>
+<p class="hint" id="hint">点击仓库道具后点击格子放置，或拖入背包；点击锁定格使用解锁额度。</p>
+<div class="actions"><button id="undo">撤销</button><button id="redo">重做</button><button id="unload">全部卸下</button><button id="expandAll">使用全部扩格额度</button><label class="unlock-input">解锁至 <input id="unlockCount" type="number" min="9" max="49" value="9"> 格 <button id="applyUnlock">应用</button></label></div>
+<div class="progress-box"><div id="drawProgress"></div><div id="unlockProgress"></div></div>
+<div class="play-options"><label><input id="skipStage" type="checkbox"> 跳过表演过程</label><small>空格/点击合拍 · 实际判定参与结算</small></div><div class="perform-controls"><label>消耗体力<input id="cost" type="number" min="1" max="1000" value="1"></label><label>点击表现<select id="judgment"><option>Great</option><option>Perfect</option><option>Good</option><option>Miss</option><option>随机</option></select></label><label>基础节拍<select id="beats"><option value="">随机6～10</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select></label><button class="primary" id="perform">表演并消耗体力</button></div><p class="hint">按所选判定模拟本次全部节拍，生成数和品质按表内概率；不包含旧版发挥与现场事件。</p>
+</section>
+<section class="panel inventory-panel"><div class="panel-title"><div><h2>道具仓库</h2><p id="inventorySummary"></p></div><button id="icons">图标资源</button></div><div class="filters"><input id="search" type="search" placeholder="搜索道具 / 套装"><select id="quality"><option value="">全部品质</option><option>绿</option><option>蓝</option><option>紫</option><option>金</option></select><select id="category"><option value="">全部种类</option><option>管乐</option><option>拉弦乐</option><option>拨弦</option><option>键盘</option><option>打击乐</option><option>装扮</option></select><select id="setFilter" aria-label="套装筛选"><option value="">全部套装</option></select></div><div id="inventory" class="inventory"></div><section class="detail" id="detail"><p>选择道具，查看每级数值和当前效果。</p></section></section></main>
+<footer>数据：A爱乐之城.xlsx · 2026-09-14确认规则 · 测试值可在参数面板修改 · 原版独立保留</footer></div>
+<dialog id="modal"><div class="modal-top"><h2 id="modalTitle"></h2><button id="closeModal" aria-label="关闭">×</button></div><div id="modalContent"></div></dialog>
+<dialog id="reward"><div class="modal-top"><h2 id="rewardTitle">选择道具</h2><button id="foldReward">收起查看背包</button></div><p id="rewardSummary"></p><div id="choices" class="choices"></div><div class="reward-actions"><span id="rewardSelection">请选择一件道具</span><button id="confirmReward" class="primary" disabled>确认获得</button></div><p class="hint">三个选项分别按品质概率抽取；选中后点击确认获得。</p></dialog>
+<button id="resumeReward" class="resume primary" hidden>继续三选一</button><div id="toast" role="status"></div>
+<script src="vendor/xlsx.full.min.js"></script><script src="data.js"></script><script src="engine.js"></script><script src="app.js"></script></body></html>
