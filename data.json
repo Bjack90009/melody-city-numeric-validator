@@ -1,4 +1,4 @@
-window.NUMERIC_DATA = {
+{
   "version": "20260915-numeric-v2",
   "source": "A爱乐之城.xlsx",
   "items": [
@@ -1037,4 +1037,4 @@ window.NUMERIC_DATA = {
       "type": "folk"
     }
   ]
-};
+}
